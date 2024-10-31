@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    /* background-color: cyan; */
+    color: rgba(0, 0, 255, 0.664);
+    margin-top: 10px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    /* background-color: pink; */
+}
+.logo img{
+    height: 120px;
+}
+
+table, th , td{
+    border-collapse: collapse;
+    padding: 15px;
+}
+table{
+    width: 100%;
+    margin: 25px 0px;
+}
+th{
+    background-color:rgba(10, 127, 236, 0.253);
+    border: 1px solid black;
+
+}
+
+td{
+    /* background-color: rgba(203, 157, 207, 0.267); */
+    border: 1px solid black;
+}
+
+button{
+    border-style: none;
+    /* padding: 10px; */
+    
+}
+
+input{
+    padding: 10px 10px;
+}
